@@ -4,7 +4,7 @@
 title: MANQING website
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: machine learning engineer&beginner data scientist
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -24,6 +24,7 @@ navbar-links:
   Projects: "project"
   Social Media:
     - linkedin: "https://www.linkedin.com/in/manqing-zhou-b6b9b0170/"
+    - github: "https://www.github.com/manqingzhou"
   Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -60,7 +61,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Manqing Zhou
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -68,10 +69,10 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "18mz17@queensu.ca"
+  facebook: manqingzhou
+  github: manqingzhou
+
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
