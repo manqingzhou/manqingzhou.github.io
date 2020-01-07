@@ -14,13 +14,14 @@ My name is Manqing/Sherry. I have the following qualities:
 Should I say binge watching **HORROR** movie?
 
 ***LETS GET SERIOUS***
+
 Contact
 - 18mz17@queensu.ca
 - 343-333-5842
 
 Profiles
-- ![resume](/img/personal/resume.pdf)
-- ![CV](/img/personal/cover letter.pdf)
+- [resume](/img/personal/resume.pdf)
+- [CV](/img/personal/cover letter.pdf)
 
 Education
 - M.Eng(2018),Electrical and Computer Engineer, [Queen's University](https://www.queensu.ca)
