@@ -23,3 +23,5 @@ title: Exploring Science
     * Perform a candidate gene association study of behavioural traits in children as early as 5 years from the CHILD study
     * [Code](https://github.com/manqingzhou/GWAS-using-R)
     * [ADHD_GWAS reference](/img/personal/ADHD_GWAS.pdf)
+    * [PLINK tutorials](/img/personal/plink.pdf)
+    * [Quality Control](/img/personal/slides.pdf)
