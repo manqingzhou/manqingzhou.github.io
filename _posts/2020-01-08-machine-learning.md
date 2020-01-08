@@ -3,7 +3,7 @@ layout: post
 title: Introduction to machine learning
 comments: false
 ---
-Welcome to the world of **machine learning** and **deep learning**. The main idea behind it is to let machine to learn from data so itcan solve new cases even when the data changes. Besides, there are different types of learning tasks such as supervised learning(classification, regression, time series prediction) or unsupervised learning(clustering). Here, I need to touch on reinforcement learning in case i get confused in the future. So, there would be reward and penalty in reinforcement learning and the outcome is to choose best policy to maxmize rewards and avoid penaltie through learning from the past.
+Welcome to the world of **machine learning** and **deep learning**. The main idea behind it is to train machine to learn from data so it can solve new cases even when the data changes. Besides, there are different types of learning tasks such as supervised learning(classification, regression, time series prediction) or unsupervised learning(clustering). Here, I need to touch on reinforcement learning in case i get confused in the future. So, there would be reward and penalty in reinforcement learning and the outcome is to choose best policy to maxmize rewards and avoid penaltie through learning from the past.
 
 ## Table of Contents
 - [Classification models](#classification-models)
