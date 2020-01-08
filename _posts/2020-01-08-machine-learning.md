@@ -23,8 +23,8 @@ Here, I need to address the difference between classification and regression . I
 
 ## Unsupervised models
 Inputs are continuous or categorical. Goal is to group data cases into a finite number of clusters so that within each cluster all cases have very similar inputs. We can put emerging similar topics in one cluster for news.
-<img src="/img/posts/cluster" alt="cluster" align="center"/>
-
+<img src="/img/posts/cluster.png" alt="cluster" align="center"/>
+is it right
 
 
 ## Feed-forward models
