@@ -16,7 +16,7 @@ Welcome to the world of **machine learning** and **deep learning**. The main ide
 
 ## Classification models
 Outputs are categorical and inputs are anything. Goal is to select correct class(label) for new inputs.The simplest case is a choice between 1 and 0.
-![simple classification](/img/posts/simple-classification.png)
+<img src="img/posts/simple-classification.png" alt="Chelsea stadium" align="left" style="PADDING-RIGHT: 15px; padding-bottom: 15px;"/>
 Here, I need to address the difference between classification and regression . In the latter case, outputs are continnuous. But the goal is similar which is to predict outputs accurately for new inputs. We can use it to predict the price of astock in 6 months time.
  
 ## Model fitting and selection
