@@ -16,14 +16,14 @@ Welcome to the world of **machine learning** and **deep learning**. The main ide
 
 ## Classification models
 Outputs are categorical and inputs are anything. Goal is to select correct class(label) for new inputs.The simplest case is a choice between 1 and 0.
-<img src="img/posts/simple-classification.png" alt="Chelsea stadium" align="left" style="PADDING-RIGHT: 15px; padding-bottom: 15px;"/>
+<img src="/img/posts/simple-classification.png" alt="0 or 1" align="center"/>
 Here, I need to address the difference between classification and regression . In the latter case, outputs are continnuous. But the goal is similar which is to predict outputs accurately for new inputs. We can use it to predict the price of astock in 6 months time.
  
 ## Model fitting and selection
 
 ## Unsupervised models
 Inputs are continuous or categorical. Goal is to group data cases into a finite number of clusters so that within each cluster all cases have very similar inputs. We can put emerging similar topics in one cluster for news.
-![cluster](/img/posts/cluster.png)
+<img src="/img/posts/cluster" alt="cluster" align="center"/>
 
 
 
