@@ -5,7 +5,7 @@ comments: false
 ---
 Welcome to the world of **machine learning** and **deep learning**
 
-### Table of Contents
+## Table of Contents
 
 - [Classification models](#classification-models)
 - [Model fitting and selection](#model-fitting-and-selection)
