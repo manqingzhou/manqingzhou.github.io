@@ -9,7 +9,6 @@ Welcome to the world of **machine learning** and **deep learning**. The main ide
 ## Table of Contents
 - [Classification models](#classification-models)
 - [Model fitting and selection](#model-fitting-and-selection)
-- [Feed-forward network](#feed-forward-networks)
 - [Recurrent neural networks](#recurrent-neural-network)
 - [Convolutional neural networks](#convolutional-neural-networks)
 - [Platform](#platform)
@@ -26,15 +25,6 @@ Once we got a feature matrix, the following question is how to normalize feature
 There are some ways to scale the range of a feature. The one I typically used is Min-max normalization
  
 ## Model fitting and selection
-
-## Unsupervised models
-Inputs are continuous or categorical. Goal is to group data cases into a finite number of clusters so that within each cluster all cases have very similar inputs. We can put emerging similar topics in one cluster for news.
-
-<img src="/img/posts/cluster.png" alt="cluster" align="center"/>
-
-
-
-## Feed-forward models
 
 ## Recurrent neural networks
 
