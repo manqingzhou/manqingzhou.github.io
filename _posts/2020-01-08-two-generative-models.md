@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gaussian Classifiers and Naive Bayes
-Subtitle: Two Generative Models
+subtitle: Two Generative Models
 comments: false
 ---
 By the end of this article, you would understand how them work.
