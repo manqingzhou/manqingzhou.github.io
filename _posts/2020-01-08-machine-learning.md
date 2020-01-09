@@ -9,9 +9,6 @@ Welcome to the world of **machine learning** and **deep learning**. The main ide
 ## Table of Contents
 - [Classification models](#classification-models)
 - [Model fitting and selection](#model-fitting-and-selection)
-- [Recurrent neural networks](#recurrent-neural-network)
-- [Convolutional neural networks](#convolutional-neural-networks)
-- [Platform](#platform)
 
 ## Classification models
 Outputs are categorical and inputs are anything. Goal is to select correct class(label) for new inputs.The simplest case is a choice between 1 and 0.
@@ -22,7 +19,7 @@ Before we dig into those complicated classification models, I want to list few e
 <img src="/img/posts/feature.png" alt="input and output" align="center"/>
 Once we got a feature matrix, the following question is how to normalize features. This is because most of clssifiers calculate the distance between two points.
 
-There are some ways to scale the range of a feature. The one I typically used is Min-max normalization
+There are some ways to scale the range of a feature. The one I typically use is Min-max normalization
 
 Okay, let me introduce you the first model: K-Nearest Neighbor(KNN). In one word, similar things are near each other. The implentation is shown below:
 ```
@@ -36,8 +33,8 @@ def knn(data, query, k, distance_fn, choice_fn):
     k_nearest_labels = [reg_data[i][1] for distance, i in sorted_neighbor_distance]
     
     return k_nearest_labels, choice_fn(sorted_neigbor_distance)
-```
 ---
+```
 ```
 ---
 def euclidean_distance(point1, point2):
@@ -47,11 +44,10 @@ def euclidean_distance(point1, point2):
     return math.sqrt(sum_squared_distance)
 ---
 ``` 
-## Model fitting and selection
+SOOOO,isn't it perfect fit for recommendation system?? [More details can be
+checked here](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761)
 
-## Recurrent neural networks
+Next, i want to introduce decision tree.
 
-## Convolutional neural networks
 
-## Platform
 
