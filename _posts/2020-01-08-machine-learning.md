@@ -18,13 +18,17 @@ Welcome to the world of **machine learning** and **deep learning**. The main ide
 Outputs are categorical and inputs are anything. Goal is to select correct class(label) for new inputs.The simplest case is a choice between 1 and 0.
 <img src="https://manqingzhou.github.io/img/posts/simple-classification.png" alt="0 or 1" align="center"/>
 Here, I need to address the difference between classification and regression . In the latter case, outputs are continnuous. But the goal is similar which is to predict outputs accurately for new inputs. We can use it to predict the price of astock in 6 months time.
+Before we dig into those complicated classification models, I want to list few examples where we can use those models. To start off, imagine predict whether a patient has cancer or not. Also, we can check if it is going to rain tomorrow based on temperature, humidity etc. The graph below is a vivid demonstration of inputs and outputs(matrix).
+
+<img src="/img/posts/feature.png" alt="input and output" align="center"/>
  
 ## Model fitting and selection
 
 ## Unsupervised models
 Inputs are continuous or categorical. Goal is to group data cases into a finite number of clusters so that within each cluster all cases have very similar inputs. We can put emerging similar topics in one cluster for news.
+
 <img src="/img/posts/cluster.png" alt="cluster" align="center"/>
-is it right
+
 
 
 ## Feed-forward models
