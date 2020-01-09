@@ -23,7 +23,30 @@ Before we dig into those complicated classification models, I want to list few e
 Once we got a feature matrix, the following question is how to normalize features. This is because most of clssifiers calculate the distance between two points.
 
 There are some ways to scale the range of a feature. The one I typically used is Min-max normalization
- 
+
+Okay, let me introduce you the first model: K-Nearest Neighbor(KNN). In one word, similar things are near each other. The implentation is shown below:
+```
+---
+def knn(data, query, k, distance_fn, choice_fn):
+    neighbor_distance = []
+    for index, data_point in enumerate(data):
+        distance = distance_fn(data_point[:-1],query)
+        neighbor_distance.append((distance,index))
+    sorted_neighbor_distance = sorted(neighbor_distance)[:k]
+    k_nearest_labels = [reg_data[i][1] for distance, i in sorted_neighbor_distance]
+    
+    return k_nearest_labels, choice_fn(sorted_neigbor_distance)
+```
+---
+```
+---
+def euclidean_distance(point1, point2):
+    sum_squared_distance = 0
+    for i in range(len(point1)):
+        sum_squared_distance += math.pow(point1[i] - point2[i], 2)
+    return math.sqrt(sum_squared_distance)
+---
+``` 
 ## Model fitting and selection
 
 ## Recurrent neural networks
