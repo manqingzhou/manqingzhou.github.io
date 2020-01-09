@@ -9,6 +9,9 @@ In the part of supervised models, I talked a lot about classification. In this a
 ## Table of Contents
 - [Unsupervised models](#unsupervised-models)
 - [Feed-forward network](#feed-forward-networks)
+- [Recurrent neural networks](#recurrent-neural-network)
+- [Convolutional neural networks](#convolutional-neural-networks)
+- [Platform](#platform)
 
 ## Unsupervised models
 Inputs are continuous or categorical. Goal is to group data cases into a finite number of clusters so that within each cluster all cases have very similar inputs. We can put emerging similar topics in one cluster for news.
