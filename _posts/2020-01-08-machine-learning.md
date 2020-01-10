@@ -47,7 +47,7 @@ def euclidean_distance(point1, point2):
 SOOOO,isn't it perfect fit for recommendation system?? [More details can be
 checked here](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761)
 
-Next, i want to introduce decision tree.
+Next, I want to introduce SVM.
 
 
 
