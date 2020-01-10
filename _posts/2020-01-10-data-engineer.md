@@ -14,6 +14,7 @@ In general, Data Engineers set up pipelines to injest streaming and batch data f
 - [Spark](#spark)
 
 ## Python
+Remerber these libraries in python. `NumPy`,'Pandas'
 ## SQL
 ## AWS platform
 ## Spark
