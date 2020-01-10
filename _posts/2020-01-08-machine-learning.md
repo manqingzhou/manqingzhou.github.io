@@ -47,16 +47,21 @@ def euclidean_distance(point1, point2):
 SOOOO,isn't it perfect fit for recommendation system?? [More details can be
 checked here](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761)
 
+As I mentioned before, in KNN, we often compute the following squared Euclidean distance between two data points **x** and **z**:'d(x,z)=||x-z||**2'. Here, we only needs to compute dot products between two data points and dot products between a datapoint and itself.
+
 Next, I want to introduce Support Vector Machines(SVM) which is nothing more than a kernelized maximum-margin hyperplane classifier.
 <img src="/img/posts/svm.png" alt="svm" align="center"/>
 
 It is a linear classifier. The goal of it is to find the line which can "best" seperate two classes:
-<img src"/img/posts/math.png" alt="wtx-w0" align="center"/>
+<img src="/img/posts/math.png" alt="wtx-w0" align="center"/>
 The vector **w** controls the decision boundary and w0 is called bias. We can assign an input vector **x** class C1 if y(x)>0 and to class C2 otherwise.
+
 The key idea of kernal methods:
 - Reduce an algorithm to one which depends only on dot products between data points
 - Then replace the dot product with a kernal function k(**x**,**z**) in which k(**x**,**z**)=(1+x**tz)**2
 
+An example of Kernal Trick. Start with 2-dimensional **x**=(x1,x2) and **z**=(x1,z2).
+<img src="/img/posts/kmath.png" alt="x dot z" align="center"/>
 
 
 
