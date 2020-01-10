@@ -47,7 +47,9 @@ def euclidean_distance(point1, point2):
 SOOOO,isn't it perfect fit for recommendation system?? [More details can be
 checked here](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761)
 
-Next, I want to introduce SVM.
+Next, I want to introduce Support Vector Machines(SVM) which is nothing more than a kernelized maximum-margin hyperplane classifier.
+<img src="/img/posts/svm.png" alt="svm" align="center"/>
+
 
 
 
