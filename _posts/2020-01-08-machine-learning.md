@@ -21,7 +21,7 @@ Once we got a feature matrix, the following question is how to normalize feature
 
 There are some ways to scale the range of a feature. The one I typically use is Min-max normalization
 
-Okay, let me introduce you the first model: K-Nearest Neighbor(KNN). In one word, similar things are near each other. The implentation is shown below:
+Okay, let me introduce you the first model: K-Nearest Neighbor(KNN). In one word, similar things are near each other and rely heavily on calculating distance. The implentation is shown below:
 ```
 ---
 def knn(data, query, k, distance_fn, choice_fn):
@@ -49,6 +49,14 @@ checked here](https://towardsdatascience.com/machine-learning-basics-with-the-k-
 
 Next, I want to introduce Support Vector Machines(SVM) which is nothing more than a kernelized maximum-margin hyperplane classifier.
 <img src="/img/posts/svm.png" alt="svm" align="center"/>
+
+It is a linear classifier. The goal of it is to find the line which can "best" seperate two classes:
+<img src"/img/posts/math.png" alt="wtx-w0" align="center"/>
+The vector **w** controls the decision boundary and w0 is called bias. We can assign an input vector **x** class C1 if y(x)>0 and to class C2 otherwise.
+The key idea of kernal methods:
+- Reduce an algorithm to one which depends only on dot products between data points
+- Then replace the dot product with a kernal function k(**x**,**z**) in which k(**x**,**z**)=(1+x**tz)**2
+
 
 
 
