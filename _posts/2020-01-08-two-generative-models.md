@@ -6,9 +6,7 @@ comments: false
 ---
 By the end of this article, you would understand how them work.
 A generative model is actually estimating p(x|y) to then deduce p(y|x).In this case,if we learn the class-conditonal density p(x|Ck) through training, we are able to predict the label for the datapoint x
-```
-p(Ck|x) = p(x|Ck)p(Ck)/p(x)
-```
+`p(Ck|x) = p(x|Ck)p(Ck)/p(x)`
 <img src="/img/posts/model-difference.png" alt="two models" align="center"/>
 Confused by all the mathematical stuff? Don't worry, this Naive Bayes example can save your brain cells.
 <img src="/img/posts/naive-bayes1.png" alt="example" align="center"/>
@@ -25,6 +23,11 @@ Here, I want to emphsize the calculation is based on the assumption that feature
 ```
 P(x|Ck)=P(x1,...,xd|Ck)=P(x1|Ck)...P(xd|Ck)
 ```
+What if we perform Naive Bayes on continuous input like in a Gaussian classifier?
+
+It would have following traits
+* A seperate, diagonal covariance matrix for each class
+* Training is equivalent to fitting a Gaussian to each class.
 
 
 
