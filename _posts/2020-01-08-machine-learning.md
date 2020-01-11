@@ -45,9 +45,9 @@ def euclidean_distance(point1, point2):
 ---
 ``` 
 SOOOO,isn't it perfect fit for recommendation system?? [More details can be
-checked here](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761)
+checked here](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761).
 
-As I mentioned before, in KNN, we often compute the following squared Euclidean distance between two data points **x** and **z**:'d(x,z)=||x-z||**2'. Here, we only needs to compute dot products between two data points and dot products between a datapoint and itself.
+As I mentioned before, in KNN, we often compute the following squared Euclidean distance between two data points **x** and **z**, `d(x,z)=||x-z||**2`. Here, we only needs to compute dot products between two data points and dot products between a datapoint and itself.
 
 Next, I want to introduce Support Vector Machines(SVM) which is nothing more than a kernelized maximum-margin hyperplane classifier.
 <img src="/img/posts/svm.png" alt="svm" align="center"/>
