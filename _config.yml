@@ -20,7 +20,7 @@ description: machine learning engineer&beginner data scientist
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  Resume: "aboutme"
   Projects: "project"
   Social Media:
     - linkedin: "https://www.linkedin.com/in/manqing-zhou-b6b9b0170/"

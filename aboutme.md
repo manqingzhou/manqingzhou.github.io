@@ -3,29 +3,52 @@ layout: page
 title: ME!
 subtitle: why you should hire me
 ---
+This is personal online resume
+18mz17@queensu.ca&343-333-5842
 
-My name is Manqing(Sherry). I have the following qualities:
+**KEY SKILLS AND STRENGTHS**
 
-- I rock a great jazz dance
-- I'm extremely passionate about food&drink&traveling
-- I enjoy a good party time
+- Programming languages: python, R.
+- Linux system: common oeprations on Centos 6.5 such as network, security, file system and etc.
+- Data: warehouse, big data pipelines and spark.
+- Written and oral communication: Written communication skills developed by technical report, problem solution report and daily project process report. Oral communication developed by weekly presentation.
 
-**my biggest hobby**?
-Should I say binge watching **HORROR** movie?
+**EDUCATION**
 
-***LETS GET SERIOUS!!!***
+Master of Electrical and Computer Engineering
+Queen's University-Kingstion,Ontario                September.2018-December.2019
+- Relevant courses: reinforcement learning, introduction to machine learning, werable and IOT, cyber security and bioinformatics
+- Relevant projects(**ALL WRITTEN IN PYTHON**)
 
-Contact
-* 18mz17@queensu.ca
-*  343-333-5842
+1.**Self-driving Cab**. Using Q-learning and Q-learning lambda algorithems to improve the efficency of picking up passengers in a 6*6 grids. The total time is reduced from around 1000s to 13s by learning from past experience.
 
-Profiles
-* [resume](/img/personal/resume.pdf)
-* [CV](/img/personal/cover letter.pdf)
+2.**Predict loads in hand from EMG signal**. Predict patients' next move based on their EMG signal. In the machine learning part, data is splitted into **70%** training and **30%**test and got the 90% accuracy score with random forest.
 
-Education
-* M.Eng(2018),Electrical and Computer Engineer, [Queen's University](https://www.queensu.ca)
-* B.Eng(2014),Electrical and Computer Engineer, Nanjing Institute of Technology
+3.**Genetic association in children behavior base on CBCL(Children Behavior Checklist)**. Analyze genetic data with plink&R and found out 11 significant SNPs correlated with cognitive behaviors.
+
+**WORK EXPERIENCE**
+Network Engineer                                             April-October 2017
+DT Dream -- HangZhou, Zhe Jiang
+
+Hired as a network engineer, I was lucky to participate in projects of differen areas including deployment engineer and data analyst
+
+**Assistant Data Analyst**
+- Collaborated with senior data analyst in population data analysis using Alibaba cloud products.
+- Collected population information from local government and formatted data.
+- Dealt with missing and inaccurate data manually and stored them in data warehouse system. 
+- Integrated personal information into a fact table based on primary id (photo id) and dug the useful information using feature extraction. 
+- Made prediction based on feature extraction. For example, we trained our data to recognize the next criminal according to features.
+
+**Network Engineer**
+- Negotiated with clients about the physical address and assigned them to machine ports.
+- Divided different functional areas and completed the distribution of infrastructures.
+- Finished the configuration of private cloud using routing protocol and other basic operations.
+
+**ADDITIONAL SKILL AND INTERESTS**
+Cisco Certified Internetwork Expert (#50578)           
+
+
+
 
 
 
