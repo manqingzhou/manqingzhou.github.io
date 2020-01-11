@@ -56,6 +56,7 @@ It is a linear classifier. The goal of it is to find the line which can "best" s
 <img src="/img/posts/math.png" alt="wtx-w0" align="center"/>
 The vector **w** controls the decision boundary and w0 is called bias. We can assign an input vector **x** class C1 if y(x)>0 and to class C2 otherwise.
 
+Thus SVM tries to make a decision boundary in such a way that the separation between the two classes is as wide as possible.
 The key idea of kernal methods:
 - Reduce an algorithm to one which depends only on dot products between data points
 - Then replace the dot product with a kernal function k(**x**,**z**) in which k(**x**,**z**)=(1+x**tz)**2
