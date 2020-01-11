@@ -56,7 +56,8 @@ It is a linear classifier. The goal of it is to find the line which can "best" s
 <img src="/img/posts/math.png" alt="wtx-w0" align="center"/>
 The vector **w** controls the decision boundary and w0 is called bias. We can assign an input vector **x** class C1 if y(x)>0 and to class C2 otherwise.
 
-Thus SVM tries to make a decision boundary in such a way that the separation between the two classes is as wide as possible.
+Thus SVM tries to make a decision boundary in such a way that the separation between the two classes is as wide as possible. Since somehow it would enlarge the feature space using **kernels** for accommodating a non-linear boundary between classes.
+
 The key idea of kernal methods:
 - Reduce an algorithm to one which depends only on dot products between data points
 - Then replace the dot product with a kernal function k(**x**,**z**) in which k(**x**,**z**)=(1+x**tz)**2
@@ -64,6 +65,47 @@ The key idea of kernal methods:
 An example of Kernal Trick. Start with 2-dimensional **x**=(x1,x2) and **z**=(x1,z2).
 <img src="/img/posts/kmath.png" alt="x dot z" align="center"/>
 
+In order to understand the model more, I am gonna emphasize on following example with code written in python. [Dataset](https://www.kaggle.com/uciml/mushroom-classification), [Details](https://towardsdatascience.com/the-complete-guide-to-classification-in-python-b0e34c92e455)
 
+```
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from skelarn.preprocessing import LabelEncoder
 
+cwd = 'path/mushroom.csv'
+data = pd.read_csv(cwd)
+data.head()
+```
+We notice that each feature is categorical and a letter is used to define a certain value(needed to be changed later).
 
+Next, we want to see if our dataset is unbalanced. An unbalanced data set is when one class is much more present thant the other. Let us implement some sampling methods, like **minority oversampling**.
+
+```
+x = data['class'] ## class is defined into edible or posionous
+ax = sns.countplot(x=x,data=data)
+```
+<img src="/img/posts/equal class.png" alt="count" align="center"/>
+
+Perfect balanced data set. Now, we want to see how each feature affects the target. Specifically, I need to figure out this feature contributes more to edible class or another one.
+
+```
+def plot_data(hue,data):
+   for i,col in enumerate(data.columns):
+      plt.figure(i)
+      sns.set(rc={'figure.figsize':(11.7,8.27)})
+      ax = sns.countplot(x=data[col],hue=hue, data=data)
+```
+The hue will give a color code to the different classes. 
+```
+hue  = data['class']
+data2 = data.drop('class',1)
+plot_data(hue,data2)
+```
+If you have confusion about how to use **sns.countplot**, Click [Here](https://seaborn.pydata.org/generated/seaborn.countplot.html)
+
+Now, let's see if we have any missing values. Run this code below:
+```
+for col in data.columns:
+    print("{}":"{}".format(col,data[col],isnull().sum()))
+```
