@@ -109,3 +109,9 @@ Now, let's see if we have any missing values. Run this code below:
 for col in data.columns:
     print("{}":"{}".format(col,data[col],isnull().sum()))
 ```
+And we can see each column with the number of missing values. Next, we need to turn letters into numbers for modelling. To achieve this, we will use [label encoding](https://www.geeksforgeeks.org/ml-label-encoding-of-datasets-in-python/) and **one-hot encoding**.
+```
+le = LabelEncoder()
+data['class']=le.fit_transform(data['class'])
+```
+As a result, the content of class would be 0 and 1 instead of e and p. p is represented by 1 while e is represented by 0. This method comes with piority problem
