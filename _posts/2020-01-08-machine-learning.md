@@ -115,3 +115,18 @@ le = LabelEncoder()
 data['class']=le.fit_transform(data['class'])
 ```
 As a result, the content of class would be 0 and 1 instead of e and p. p is represented by 1 while e is represented by 0. This method comes with piority problem
+.
+Now that our data set contains only numerical data, we can now start our svm model and making preidctions. But before diving deep into modelling and making prediction, we need to split our data into a training set and test set.
+```
+from sklearn.model import train_test_split
+X = data
+y = data["class"]
+X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.3)
+```
+Here, y is simply the target(poisonous or edible). Sometimes, we will add parameter random_state to ensure that every time the code runs, the data set will be split identically.
+```
+from sklearn.svm import SVC
+svclassifier = SVC(kernel = 'linear')
+svcclassifier.fit(X_train,y_train)
+```
+Bingo, the simplest step of dealing with data set and you also learn how svm works.
