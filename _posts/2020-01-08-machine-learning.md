@@ -8,7 +8,6 @@ Welcome to the world of **machine learning** and **deep learning**. The main ide
 
 ## Table of Contents
 - [Classification models](#classification-models)
-- [Model fitting and selection](#model-fitting-and-selection)
 
 ## Classification models
 Outputs are categorical and inputs are anything. Goal is to select correct class(label) for new inputs.The simplest case is a choice between 1 and 0.
@@ -130,3 +129,4 @@ svclassifier = SVC(kernel = 'linear')
 svcclassifier.fit(X_train,y_train)
 ```
 Bingo, the simplest step of dealing with data set and you also learn how svm works.
+
