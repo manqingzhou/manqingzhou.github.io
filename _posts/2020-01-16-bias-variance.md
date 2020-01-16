@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bias Versus Variance
+subtitle: Improve your model
 comments: false
 ---
 Whenever we think about model prediction, the first thing pops up is always prediction errors(bisa and variance). Understanding of these errors would help us avoid the mistake of overfitting and underfitting.
@@ -21,4 +22,13 @@ In supervised learning, **underfitting** means YOUR model messes up the pattern 
 Like always, we need to minimize the error function `Total Error = Bias**2 + Variance + Irreducible Error`
 Here,I want to emphasize the with the increase of algorithem, the bias will go down while the variance goes up. That is why it is important to find a good balance for it.
 
+Now, let us get into the final part---improve your model's performance. It is basically cross-validation. The main thing is just to repeatedly draw samples from a training set and refit a model of interest on each sample.
+
+**CROSS-VALIDATION**
+
+**cv** is used to estimate the test error associated with a model. It simply invovles randomly dividing the dataset into two parts: **training set** and **validation set** or **hold-out set**. We need to keep in mind that only a small subset of the observations are used to fit the model definitely would perform worse.
+
+**LEAVE-ONE-OUT CROSS-VALIDATION**
+
+It is a better option than the validation set approach cuz we only need one observation for validation and the rest is used to fit the model
 
