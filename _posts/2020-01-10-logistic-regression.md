@@ -1,6 +1,6 @@
 ---
 layout: post
-title: REGRESSION
+title: Infamous Logistic Regression
 subtile: Logistic Regression
 comments: false
 ---
