@@ -11,6 +11,8 @@ How we build a tree?
 - Grow it by splitting features one by one. To determine which feature to split, look at "node impurity"
 - When we get to the bottom, prune the tree to prevent overfitting
 
+Let us talk about **CART** and then **C4.5**
+
 **Regression trees**
 
 Trees are drawn upside down. The final regions are termed `leaves`. `Node` is where a split occurs.
@@ -20,6 +22,9 @@ To create a regression tree, we use the mean of the response and a greedy approa
 **Classification tree**
 
 It is very similar to a regression tree. However, we cannot use the mean value of the response, so we now predict the most commonly occuring class in a region.
+
+I want to use an example to vividly explain how to calculate  gini index.
+`GINI(t) = 1 - [p(j|t)]**2`
 
 Before we diving into decision tree examples, I need to address **Information Theory**. For example, a coin flips, we know the prob of being head is 1, we get no imformation from this event. Is that clear.
 
