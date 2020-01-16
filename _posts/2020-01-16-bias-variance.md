@@ -31,4 +31,14 @@ Now, let us get into the final part---improve your model's performance. It is ba
 **LEAVE-ONE-OUT CROSS-VALIDATION**
 
 It is a better option than the validation set approach cuz we only need one observation for validation and the rest is used to fit the model
+<img src="/img/posts/leave-one-out.img" alt="leave-one-out cross-validation" align="center"/>
+This method is much better, because it has far less bias, since more observations are used to fit the model.
+
+**K-FOLD CROSS-VALIDATION**
+
+This approach invovles randomly dividing the set of observations into k groups of approcimately equal size. The procedure is repeated k times, when a different
+group is treated as the validation set. It is common to set k equal to 5 or 10.
+
+Whereas LOOCV is computationally intensive for large datasets, k-fold is more general with more accurate estimates of test error.
+
 
