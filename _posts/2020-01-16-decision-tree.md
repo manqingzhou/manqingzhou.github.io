@@ -26,7 +26,10 @@ It is very similar to a regression tree. However, we cannot use the mean value o
 I want to use an example to vividly explain how to calculate  gini index.
 `GINI(t) = 1 - [p(j|t)]**2`
 
+Another algorithm for splitting the tree.
+
 Before we diving into decision tree examples, I need to address **Information Theory**. For example, a coin flips, we know the prob of being head is 1, we get no imformation from this event. Is that clear.
+
 
 When we have lots of events, what is the mean information of those events? Assume the events v1,....vj occur with prob p1,p2,....,pj,where[p1,..,pj] is a discrete prob distribution.
 <img src="/img/posts/discrete-prob-distribution.png" alt="information" align="center"/>
