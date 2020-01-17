@@ -9,6 +9,9 @@ What exactly is logistic regression. For binary classification, logistic regress
 
 σ (.) is the logistic sigmoid function. `σ(a)=1/(1+exp(-a))` + `d(σ)/d(a)=σ(1-σ)`.
 
+Now the goal is to maximize the conditional likelihood p(**t**/w).
+- we take the log to work with the equation and minimize the negative term.
+- To find the minimum of the error, we use simple gradient descent.
 
 
 
