@@ -2,7 +2,6 @@
 layout: post
 title: Discriminant Analysis
 subtitle: A dimensionality reduction technique
-comments: false
 ---
 In one sentence, Linear Discriminant Analysis use the information from features to create a new axis and projects the data to this new axis to minimize the variance and maximize the distance between the mean of two classes.
 Before breaking up the algorithm, I want to talk little about the math behind it.
