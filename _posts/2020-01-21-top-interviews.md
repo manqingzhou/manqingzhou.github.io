@@ -54,6 +54,7 @@ We are trying to find the hyperplane that maximize the margin,we need to find an
 Future implementation code will be provided.
 
 **Explain Decison Tree algorithm in detail**
+
 To start off, it is a supervised machine learning algorithm mainly used for the **Regression and Classification**. The final result is a tree with decision nodes and leaf nodes. Decision tree can handle both categorical and numerical data.
 
 Dont forget information gain and entropy in decision tree algorithm. Entropy checks the node impurity(0 if the sample is equally divided)
@@ -66,6 +67,7 @@ Information gain is used to split the tree.(The goal is to find the highest info
 When we remove sub-nodes of a decision node, this process is called pruning or opposite process of splitting. If you wanna your tree to be robust at predicting(reduce the complexity of the model), you gotta cut some useless branches to avoid overfitting. Isnt like in nature, when you wanna the peach tree to be robustly growing.
 
 **Ensemble learning**
+
 To be honest, it is my first time heard aboot it, eh? But the function is just like its name, it is the art of combining deiverse sets of individual models to improvise on the stability and predictive power of the model. 
 
 Bagging? isnt it vivid, a pile of bags stacked together?
@@ -83,6 +85,7 @@ As we know, we use the sum of sqaure to the **C** to decide which cluster the da
 The turning point here means you dont see much decrease in WSS.
 
 **What is deep learning**
+
 WOOW I hate it cuz i havent study a bit about it. But i am gonna use a real-life example to help me better understand it.
 Lets just say its a huge number of hidden layers???
 
@@ -91,5 +94,6 @@ Lets just say its a huge number of hidden layers???
 The model predictions should then minimize the loss function calculated on the regularized training set
 
 **Tell me about reinforcement learning**
+
 I LOVE TO EXPLAIN IT CUZ I TOOK A COURSE ABOUT IT!!! In one word, we use reward and penalty to teach machine find the best policy ever!plz check my github code:self-driven cab for more details.
 
