@@ -40,3 +40,10 @@ I mean when I am not coding or trying to handle my assignment. I love to dance, 
 **What is my proudest achievement**
 
 There are many moments i was pretty proud of myself. I am gonna talk about the most recent one. Last winter, I was doing a course, bioinformatics, it was beyond my knowledge. I did not have a deep bio background, so i needed to read extra papers to understand the terms in the slides. Also, when it comes to the final project, my team mate was busy with another course, so i gotta do what i gotta do. I need to finish all the code part. Even we had some instructions from the prof. It was still pretty challenges. OFFICE+EXTRA STUDYING HOURS. I DID A PERFECT PRESENTATION AND I GOT A+. Oh, did i mention that i also teach my fellows about it. haha
+
+**Why did u choose you major or which is your fav program**
+
+I always wanna do something I am intersted. But at that time, i am not sure i am gonna like it or not. I know i gonna make a good money for sure. But as I spend more time on my major, i realize i can make huge contributions as doctor do. They can save life but we can make people live better. Think about telsa, self-driving system. Imagine how much traffic we can avoid in the future.
+
+My fav program would be the network team, i had experience as a network engineer, i quite enjoy the internship and what i did. I check the job description online, it shows that we can learn new technology and work with fantastic teams.
+
