@@ -1,6 +1,6 @@
 ---
 layout: post
-title: video interview with bell
+title: Video Interview With Bell
 subtitle: summer intern
 ---
 It is gonna be be my first 'phone interview'. I am now trying to record what I need to do for this interview (around 20 minutes based on the description).
