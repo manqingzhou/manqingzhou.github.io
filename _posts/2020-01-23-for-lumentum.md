@@ -40,7 +40,7 @@ Next, you need consider the budget, what kind of switch u wanna buy, do you real
 I am not sure if any company still use brige, but i know how it works, it is used to connect two LANs, it would broadcast every single message to all possible destinations and cause unnecessary traffic. Thats the reason we assigns address to nodes so that packets can only forwarded in one direction.
 
 Switch is a device for sending a packet to its next destination. The trip from one switch point to another in the network is called a hop.
-<img src="/img/posts/brige and switch.png" alt="difference" align="center"/>
+<img src="/img/posts/bridge and switch.png" alt="difference" align="center"/>
 You can see, switch connects multiple clients to one network. 
 Besides, i want to mention hub here, it sure relay message to all ports in the hub.
 
