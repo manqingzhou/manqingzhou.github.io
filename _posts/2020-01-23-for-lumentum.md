@@ -56,12 +56,18 @@ That is why we use Spanning Tree Protocol(STP) to block redundant physical links
 Hot Standby Router Protocol is a Cisco protocol which allows mutiple client gateways as one 'virtual' router. From the perspective of client, I see one gateway, i send my packet there, this protocol would then choose an active router, even active router fails, standup one can take the job and forward the packets.
 <img src="/img/posts/HSRP.png" align="hot standby router protocol" alt="center"/>
 As you see, two routers share one virtual ip address, and their real ip address are not shown to the client.
-**What are OSPF, BGP, EIGRP**
- 
 
+**What are OSPF, BGP, EIGRP**
 **Subnetting**
 **What is NAT/PAT**
+
+NAT stands for Network address translation, it translates ip addresses in a local network to one ip address
 **Differences between routers and switches?**
+
+I would say the main function of switch is to divide a single local area network  into different virtual vlans. But when it comes to different vlans, it needs the help of layer 3 devide, router. 
 **How does BGP work**
 
+Border Gateway Protocol is queit a complicated protocl in general. To begin with, government, university have different AS numbers which BGP uses to route. External BGP require peering agreement to establish connections with neighbor.
+
+**How does firewall work**
 
