@@ -46,7 +46,19 @@ Besides, i want to mention hub here, it sure relay message to all ports in the h
 
 Switch can also break up a single LAN into mutiple VLANs. Each VLAN has its own ip subnet. Device in the same VLAN and IP subnet can communicate at Layer 2. But if one device is in VLAN 10 and the other one is in VLAN 20, then they probably need a router. So when we configure switch, we only need to write down, vlan <range or id>, name of the vlan, switchport mode, switchport access vlan.
 
-Why we need vlan
+Why we need vlan, it is for isolation. Imagine, in the comapny, we have different departments such as finance, engineer, product team. We dont want them in the same network for some safety reasons.
+
+Okay, since we are talking about switches and vlans. There is something we need to consider, what if we have too many vlans, it would cause **broadcast storm**,
+
+That is why we use Spanning Tree Protocol(STP) to block redundant physical linksamong switches to prevent loops. This protocol will determine a single path.
+
+**What is HSRP and VRRP**
+Hot Standby Router Protocol is a Cisco protocol which allows mutiple client gateways as one 'virtual' router. From the perspective of client, I see one gateway, i send my packet there, this protocol would then choose an active router, even active router fails, standup one can take the job and forward the packets.
+<img src="/img/posts/HSRP.png" align="hot standby router protocol" alt="center"/>
+As you see, two routers share one virtual ip address, and their real ip address are not shown to the client.
+**What are OSPF, BGP, EIGRP**
+ 
+
 **Subnetting**
 **What is NAT/PAT**
 **Differences between routers and switches?**
