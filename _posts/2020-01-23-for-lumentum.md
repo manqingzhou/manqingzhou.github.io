@@ -62,9 +62,11 @@ As you see, two routers share one virtual ip address, and their real ip address 
 **What is NAT/PAT**
 
 NAT stands for Network address translation, it translates ip addresses in a local network to one ip address. In other word, it makes private addreses in LAN invisible. 
+
 **Differences between routers and switches?**
 
 I would say the main function of switch is to divide a single local area network  into different virtual vlans. But when it comes to different vlans, it needs the help of layer 3 devide, router. 
+
 **How does BGP work**
 
 Border Gateway Protocol is queit a complicated protocol in general. To begin with, government, university have different AS numbers which BGP uses to route. External BGP require peering agreement to establish connections with neighbor.
