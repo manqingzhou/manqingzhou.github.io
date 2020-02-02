@@ -86,4 +86,4 @@ Then the tuble index would become two columns index. After that, we can just mak
 <img src="/img/posts/DataFrame.png" alt="series" align="center"/>
 We can see from the photo, it is super nice to add another column with the index,eh?
 
-
+**Combining Dataset**
