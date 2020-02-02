@@ -64,3 +64,26 @@ data.dropna() #drop any rows with missing values, so harsh
 ```
 Time to fill those bitches!!! Sometimes rather than dropping NA values, you'd rather replace them with a valid value. The value might be a single number like zero or might be some sort of imputation or interpolation from the good values. We can use `data.fillna(0)` or we can We can specify a forward-fill to propagate the previous value forward `data.fillna(method='ffill')`
 
+**Hierarchical Indexing**
+
+We can use fuction `MultiIndex` to deal with tuples
+```
+index = [('California', 2000), ('California', 2010),
+         ('New York', 2000), ('New York', 2010),
+         ('Texas', 2000), ('Texas', 2010)]
+populations = [33871648, 37253956,
+               18976457, 19378102,
+               20851820, 25145561]
+pop = pd.Series(populations, index=index)
+```
+We can the index is a tuple, normally, we would do this to select value, `pop[[i for i in pop.index if i[1] == 2010]]`. That is super inefficient. We can do in this way instead.
+```
+index = pd.MultiIndex.from_tuples(index)
+pop = pop.reindex(index)
+```
+<img src="/img/posts/multi-index.png" alt="series" align="center"/>
+Then the tuble index would become two columns index. After that, we can just make a extre column out of it by `pop.unstack()`
+<img src="/img/posts/DataFrame.png" alt="series" align="center"/>
+We can see from the photo, it is super nice to add another column with the index,eh?
+
+
