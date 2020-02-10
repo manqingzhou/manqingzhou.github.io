@@ -54,3 +54,5 @@ from FactTransactionHistory;
 Loading data in data warehouse. There are numerous methods for it. The first one is MPP. Another thing is to avoid ordered data. It can introduce hot spot that slow down the process. We can load csv into temporary table.
 
 Different loading methods include single-client loading methods AND parellel readers loading methods. Control nodes receives connections and start the query.
+
+big data pipelines, we start from loading data, we can see we create table struture by define the name and data type(length for varchar). Loading with PolyBase . Imagine we have csv in Azure Blob storage. Dont forget to format txt file into csv style and do some hash to the ProductKey. 
