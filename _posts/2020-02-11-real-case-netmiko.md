@@ -2,8 +2,7 @@
 layout: post
 title: A Use Case for Network Automation
 ---
- 
-This is something I need to work on every single day. Use the Python Netmiko module to automate switches, routers and firewalls from multiple ventors. For more detail, click on [this](https://www.linuxjournal.com/content/use-case-network-automation).
+ This is something I need to work on every single day. Use the Python Netmiko module to automate switches, routers and firewalls from multiple ventors. For more detail, click on [this](https://www.linuxjournal.com/content/use-case-network-automation).
 
 SNMP could provide a lot the information we need, but it would have to be configured on each device manually first.
 
