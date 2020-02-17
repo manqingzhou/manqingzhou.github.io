@@ -74,5 +74,35 @@ class Solution:
         return True
 ~~~
 **Reverse words in a String**
+<img arc="/img/posts/reverse word in a string.png" align="deque" alt="center"/>
+This is the solution i chose, but from the original site, there is another solution possible. [Link](https://leetcode.com/articles/reverse-words-in-a-string/).
+~~~
+Input: "  hello world!  "
+Output: "world! hello"
+Explanation: Your reversed string should not contain leading or trailing spaces.
+and you need to reduce multiple spaces between two words to a single space in the reversed string. 
+~~~
+First step would be removing the leading or trailing spaces.
+~~~
+from collections import deque
+class Solution:
+    def reverseWords(self, s: str) -> str:
+        left, right = 0, len(s) - 1
+        while left <= right and s[left] == ' ':
+            left += 1
+        while left <= right and s[right] == ' ':
+            right -= 1
+        d, word = deque(),[ ]
+        while left <=right:
+            if s[left] == ' ' and word:
+                d.appendleft(''.join(word))
+                word = [ ]
+            elif s[left] != ' ':
+                word.append(s[left])
+            left += 1
+        d.appendleft(''.join(word))
+        return ' '.join(d)
+~~~
+Let me explain the logic behind my code,the first section is for trimming. Then,for loop the whole list. IF I see a space and word(we put the sub-sentence) is not empty. We gonna add that to our quene. IF there is no space, its a letter, add that to the word. **KEEP MOVING THE POINTER**
 
                 
