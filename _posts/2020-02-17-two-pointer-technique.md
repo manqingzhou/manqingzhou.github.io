@@ -78,8 +78,9 @@ class Solution:
             else:
                 return start + 1, end + 1
 ~~~
-~~~
 The classic container with mose water solution
+~~~
+input = [1,7,2,5,6,8,7]-> 49
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         #this technique would be using two pointers, and we always wanna move the shorter one, cuz otherwise we would be limited by it. Also, it is definitely the first try to solve maximum question
