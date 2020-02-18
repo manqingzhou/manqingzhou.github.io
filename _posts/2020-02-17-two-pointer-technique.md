@@ -99,4 +99,24 @@ class Solution:
        
         return max_container
 ~~~
-        
+Next would be medium level question Product of Array Except Self
+~~~
+Input:  [1,2,3,4]
+Output: [24,12,8,6]
+class Solution:        
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        #we can think it of product of two lists
+        length = len(nums)
+        L,R,output = [0]* length, [0]* length, [0]* length
+        L[0] = 1
+        for i in range(1,len(nums)):
+            L[i] = L[i-1] * nums[i-1]
+        #self.reverse(nums,0,len(nums)-1)
+        R[length -1 ] = 1
+        for j in reversed(range(len(nums)-1)):
+            R[j] = nums[j+1] * R[j+1]
+            
+        for number in range(len(nums)):
+            output[number] = L[number] * R[number]
+        return output
+~~~        
