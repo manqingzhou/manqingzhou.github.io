@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Time to Prepare for on-site Interview with My Dream Company
+title: Time to Prepare for on-site Interview with My Dreamy
 ---
 **Find ALL Anagrams in a String**
 example: s: "cbaebabacd" p: "abc" output:[0,6] #It is apparently a index
