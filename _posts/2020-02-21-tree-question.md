@@ -88,3 +88,22 @@ class Solution:
                     
         return levels           
 ~~~
+let us do some inorder traveral with iteration, usually it is DFS and we gonna use stack this time. Take a deep breath and you can do it.
+~~~
+class Solution:
+    def inorderTraversal(self, root: TreeNode) -> List[int]:
+        #use stack to dig into the bottom and start to check the right
+        res = []
+        stack = []
+        curr = root
+        while (curr is not None or len(stack) > 0):
+            while curr is not None:#if right is not None,add right and check left
+                stack.append(curr)
+                curr = curr.left
+            node = stack.pop()
+            res.append(node.val)
+            #this is used to check the right when we hit the bottom
+            curr = node.right
+        return res
+~~~
+
