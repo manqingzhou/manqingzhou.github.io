@@ -106,4 +106,31 @@ class Solution:
             curr = node.right
         return res
 ~~~
+**Validate Binary Search Tree**
 
+We need to keep in mind that root value is bigger than its left and smaller thanits right. Attention: root.val is the maximum of the left_subtree.
+~~~
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+# cuz we r comparing the value in tree, so we do a in-order traverse, which is 
+# preorder DFS, so root->left->right from top to bottom, sorta similar to BFS
+class Solution:
+    def isValidBST(self, root: TreeNode) -> bool:
+        if not root:
+            return True
+        stack = [(root,float('-inf'),float('inf'))]
+		# use set for remove duplicated value
+        while stack:
+            node,_min,_max = stack.pop()
+            if node.val <= _min or node.val >= _max: return False
+            if node.left:
+                #here, we want root.left value compared with its root value
+                stack.append((node.left,_min,min(_max,node.val)))
+            if node.right:
+                stack.append((node.right,max(_min,node.val),_max))
+        return True    
+~~~
