@@ -2,6 +2,7 @@
 layout: post
 title: Somehing about network I never studied before
 ---
+<img src="/img/posts/voc.png" alt="network stuff" align="center"/>
 I am preparing for the TAC engineer.
 
 configuring and fixing VPNs (Ipsec and SSL), site to site as well as remote-client, UTM (Antivirus/Antispam, Web/Email Filtering, Application Control, Data Leak Prevention and Intrusion Prevention) features to ensure solid network security.
