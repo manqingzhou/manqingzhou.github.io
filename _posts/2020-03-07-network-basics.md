@@ -23,5 +23,5 @@ Plus damn troubleshooting.
 
 Above is just I got from some people working for similar job.
 
-<img src="/img/port_num.png" alt="transport layer port" align="center"/>
+<img src="/img/posts/port_num.png" alt="transport layer port" align="center"/>
 
