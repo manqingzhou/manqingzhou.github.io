@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Somehing about network I never studied before
+title: Something about network I never studied before
 ---
 <img src="/img/posts/voc.png" alt="network stuff" align="center"/>
 I am preparing for the TAC engineer.
