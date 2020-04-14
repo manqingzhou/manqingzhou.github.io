@@ -15,6 +15,8 @@ Why you need know trunk cuz you need different vlan trunk traffic to pass. oh! s
 
 Now, let's get to layer 3. How could you not know the UDP header...Just source port and destination port (plus checksum and length). OKAY, the header the TCP is complicated. We have source port and destination port, sequencing number, ack number,checksum. You know what you are missing. The fucking tcp flag!!! URG,SYN,ACK,RST,FIN,PSH.
 
+Another thing you need to know about is tcp and udp, which protocol uses udp(tftp,snmp,dns). Some poeple may ignore it,lool. Also, what is a snmp server, explain it in detail. The classic ip range??? The difference between pop3 and smtp server.
+
 We also need to know the difference between stateful and stateless firewall. Static NAT and PAT. VPN, ipsec vpn, ssl vpn and dmvpn. You should the detail of them for sure. Like authentication, encryption and hashing. Then I was asked to lise some encryption ways. I also talked about ransomware. Then, I also need to know AAA??? Authentication, authorization and accouting.
 
 Some other basics like DHCP, DNS, SNMP, OSPF, BGP. Basic commands on linux and pc. Some easy troubleshooting,loool. HMMMMM. what else, anti-spam and ids/ips. I highlg suggest if you want to know what poeple are doing. Really check the job decription and employee on linkedin. 
