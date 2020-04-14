@@ -17,13 +17,18 @@ Continuing with layer 2, we have switch stacking, don't confuse it with aggregat
 
 Now, let's get to layer 3. How could you not know the UDP header...Just source port and destination port (plus checksum and length). OKAY, the header the TCP is complicated. We have source port and destination port, sequencing number, ack number,checksum. You know what you are missing. The fucking tcp flag!!! URG,SYN,ACK,RST,FIN,PSH.
 
+Also, you should keep in mind, if the packet is bigger than the MTU, it would bebroken up or fragmented which will slow down the transmission.
+
 Another thing you need to know about is tcp and udp, which protocol uses udp(tftp,snmp,dns). Some poeple may ignore it,lool. Also, what is a snmp server, explain it in detail. The classic ip range??? The difference between pop3 and smtp server.
 
 SMTP is used to the send the email fromt the client to the server while POP3 is used to retrieve email from the server and then delete that email from the server, safe huh?
 
 I dont know there are so many information I dont know, please tell me what is the syslog server, it is used to keep track of the log information.
 
-We also need to know the difference between stateful and stateless firewall. Static NAT and PAT. VPN, ipsec vpn, ssl vpn and dmvpn. You should the detail of them for sure. Like authentication, encryption and hashing. Then I was asked to lise some encryption ways. I also talked about ransomware. Then, I also need to know AAA??? Authentication, authorization and accouting.
+Simple Network Management Protocol enables us to monitor hardware on our networkand send traps (alarms or event messages) to SNMP managers. We can see some snmp event over here like CPU over usage, Power supply faliture and some other events.
+
+Here, in order to impress the whoever, you can also mention, we can have up tp three syslog servers for different purposes like traffic logs, antivirus logs. 
+We also need to know the difference between stateful and stateless firewall. Static NAT and PAT. VPN, ipsec vpn, ssl vpn and dmvpn. You should the detail of them for sure. Like authentication, encryption and hashing. Then I was asked to list some encryption ways. I also talked about ransomware. Then, I also need to know AAA??? Authentication, authorization and accouting.
 
 What about tcp three way handshake and dhcp binding process, well, it has four steps, first, the client sends a dhcp dicovery message and the dhcp sends back his offer. The client picks one and sends out dhcp request. It ends with dhcp server acknowledge message.
 
