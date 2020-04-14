@@ -17,6 +17,7 @@ Now, let's get to layer 3. How could you not know the UDP header...Just source p
 
 Another thing you need to know about is tcp and udp, which protocol uses udp(tftp,snmp,dns). Some poeple may ignore it,lool. Also, what is a snmp server, explain it in detail. The classic ip range??? The difference between pop3 and smtp server.
 
+SMTP is used to the send the email fromt the client to the server while POP3 is used to retrieve email from the server and then delete that email from the server, safe huh?
 We also need to know the difference between stateful and stateless firewall. Static NAT and PAT. VPN, ipsec vpn, ssl vpn and dmvpn. You should the detail of them for sure. Like authentication, encryption and hashing. Then I was asked to lise some encryption ways. I also talked about ransomware. Then, I also need to know AAA??? Authentication, authorization and accouting.
 
 Some other basics like DHCP, DNS, SNMP, OSPF, BGP. Basic commands on linux and pc. Some easy troubleshooting,loool. HMMMMM. what else, anti-spam and ids/ips. I highlg suggest if you want to know what poeple are doing. Really check the job decription and employee on linkedin. 
