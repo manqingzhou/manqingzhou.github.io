@@ -13,6 +13,8 @@ Speaking of layer 2, there is this scenario, you wireshark the packet and you se
 Any questions you can think of layer 2? layer 2 should be in the same network,lool. There are some technology you should be know about switch like vlan, trunk.
 Why you need know trunk cuz you need different vlan trunk traffic to pass. oh! stp, spanning tree protocol to avoid the broadcast storm of the redundancy of two or multiple switches.
 
+Continuing with layer 2, we have switch stacking, don't confuse it with aggregatio. switch stacking makes it possbile to scale up or down the capability based on the capacity. Aggregate interfaces allow us to bind two or more physical interfaces together to form an aggregated link. This new link has the bandwidth of all the links combined.
+
 Now, let's get to layer 3. How could you not know the UDP header...Just source port and destination port (plus checksum and length). OKAY, the header the TCP is complicated. We have source port and destination port, sequencing number, ack number,checksum. You know what you are missing. The fucking tcp flag!!! URG,SYN,ACK,RST,FIN,PSH.
 
 Another thing you need to know about is tcp and udp, which protocol uses udp(tftp,snmp,dns). Some poeple may ignore it,lool. Also, what is a snmp server, explain it in detail. The classic ip range??? The difference between pop3 and smtp server.
