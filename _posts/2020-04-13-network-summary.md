@@ -25,6 +25,8 @@ I dont know there are so many information I dont know, please tell me what is th
 
 We also need to know the difference between stateful and stateless firewall. Static NAT and PAT. VPN, ipsec vpn, ssl vpn and dmvpn. You should the detail of them for sure. Like authentication, encryption and hashing. Then I was asked to lise some encryption ways. I also talked about ransomware. Then, I also need to know AAA??? Authentication, authorization and accouting.
 
+What about tcp three way handshake and dhcp binding process, well, it has four steps, first, the client sends a dhcp dicovery message and the dhcp sends back his offer. The client picks one and sends out dhcp request. It ends with dhcp server acknowledge message.
+
 Some other basics like DHCP, DNS, SNMP, OSPF, BGP. Basic commands on linux and pc. Some easy troubleshooting,loool. HMMMMM. what else, anti-spam and ids/ips. I highlg suggest if you want to know what poeple are doing. Really check the job decription and employee on linkedin. 
 
 That's just what I remember, if anything else i did not mention, check glassdor for the job.People are definitely willing to share with you. 
