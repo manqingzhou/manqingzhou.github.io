@@ -22,3 +22,36 @@ In the end, you can show ip route on router 1 and be able to ping pc. You can se
 
 Okay, lets dig into router on a stick or router on the stick. The case would be a router, a layer2 switch and two pcs on different vlans. What we need to configure? Next scenario I would be configuring the ipsec vpn and explain the concept o it.
 
+The whole enviroment is based on GNS3 VM, we eould need router c3725, layer2 switch and two pcs as I mentioned before. The topology can be shown down below:
+<img src="/img/posts/vlan_routing.png" alt="router on a stick" align="center/">
+
+Same configuration on pc, ip address + subnet mask + default gateway
+
+Configuration on layer2 switch
+~~~
+vlan 22
+vlan 33
+int g0/0
+switchport trunk en dot1q
+switchport mode trunk
+switchport trunk allow vlan22,33
+int g0/1
+switchport mode access
+switchport access vlan 22
+int g0/2
+switchport mode access
+switchport access vlan 33
+~~~
+When I finished the configuration, I use show vlan brief and show int g0/0 switchport
+Configuraion on Router
+~~~
+int f0/0
+no ip address
+no shut down
+int f0/0.22|f0/0.33
+encapsulation dot1q {vlan id}
+ip add 10.xx.0.1 255.255.255.128
+~~~
+In order to validate the configuration on router, definitely need to check show vlans and show ip route.
+
+
