@@ -54,4 +54,13 @@ ip add 10.xx.0.1 255.255.255.128
 ~~~
 In order to validate the configuration on router, definitely need to check show vlans and show ip route.
 
+Now, lets wireshark and see the traffic between pc1 and pc2, I ping from pc2 and capture the traffic between router and switch.
+<img src="/img/posts/vlan_routing2.png" alt="router on a stick" align="center/">
+We can definitely see two arps, one is for pc2 to arp the mac address of default gateway and another way is the router to arp the mac address of pc1. The rest is just some echo request and echo reply. 
 
+In the end I want to address, if you wanna fix the problem of when you try to capture packet from gns3 and the error says no such file or directory, just go to `reference`->`packet capture`->`tail -f -c +0 %c | /Applications/Wireshark.app/Contents/MacOS/Wireshark -k -i -`. 
+
+Also, when you run vmvare in the macos, if you see the error broken pipe. It means the mac block it. Go to the security setting and allow this application.
+
+[install gnsvm on mac](https://www.youtube.com/watch?v=h7-2kkMaD-Q&vl=en)
+[install layer2 switch](https://yaser-rahmati.gitbook.io/gns3/l2-switching-simulation)
