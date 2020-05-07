@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Summary for Another Interview
+subtitle: router on a stick
 ---
 It is been three days since I finished my last interview. In general, the interview is not bad, the topic goes deep into ccnp study. It has the real-time troubleshooting with the manager. He draw the scenario and gave me some questions and I needed to figure out where it went wrong. I dont remember the specific detail, but the router on the stick really got me. I decide to regenerate the configuration in GNS3.
 
