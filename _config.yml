@@ -22,6 +22,7 @@ description: network engineer
 navbar-links:
   Resume: "aboutme"
   Projects: "project"
+  Category: "class"
   Social Media:
     - linkedin: "https://www.linkedin.com/in/manqing-zhou-b6b9b0170/"
     - github: "https://www.github.com/manqingzhou"
