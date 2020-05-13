@@ -10,6 +10,7 @@ layout: post
 - [Phone interview with Lumentum](https://manqingzhou.github.io/2020-01-31-interview-questions/)
 - [Preparation for network engineer interviewp](https://manqingzhou.github.io/2020-01-23-for-lumentum/)
 - [Video interview with Bell](https://manqingzhou.github.io/2020-01-22-bell-video-interview/)
+
 **Software coding test**
 - [Two-pointer technique](https://manqingzhou.github.io/2020-02-17-two-pointer-technique/)
 - [Tree](https://manqingzhou.github.io/2020-02-21-tree-question/)
