@@ -44,3 +44,4 @@ ip access-group INFRASTRUCTURE in
 
 The issue with Telnet is that it sends data across a network in clear text. okay, lets give it a shot on GNS3.
 
+****
