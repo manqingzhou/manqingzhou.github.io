@@ -69,7 +69,7 @@ The **aaa authenticaion login ADMIN group tacacs+ local** command defines **ADMI
 
 **SNMP Security**
 SNMP is the standard for network management protocols. The picture shown below explains the simple interactions of SNMP.
-<img src="/img/postst/SNMP.png" alt="simple network management tool" align="center"/>
+<img src="/img/posts/SNMP.png" alt="simple network management tool" align="center"/>
 We have `GET` to retrieve information from the router, We use `SET` to define what triggers an action on a managed device. `Trap` is just a message sent from a managed device to an SNMP manager, which can notigy the SNMP manager about a significant event that occured on the device.
 
 **NTP Authentication**
