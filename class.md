@@ -17,3 +17,21 @@ layout: post
 - [medium coding questions](https://manqingzhou.github.io/2020-02-21-tree-question/)
 - [BFS](https://manqingzhou.github.io/2020-03-04-graph/)
 
+**Cisco Security**
+- [Network Device security](https://manqingzhou.github.io/2020-05-09-route-security/)
+- [Switch Security](https://manqingzhou.github.io/2020-05-08-mac/)
+- [Attack on Switch](https://manqingzhou.github.io/2020-05-14-attack/)
+- [Ipsec VPN](https://manqingzhou.github.io/2020-04-19-ipsec-vpn/)
+- [Introduction to firewall](https://manqingzhou.github.io/2020-03-08-firewall/)
+
+**ALL you need about being a data analyst(for fun)**
+- [Data warehouse](https://manqingzhou.github.io/2020-02-09-data-warehouse/)
+- [PCA](https://manqingzhou.github.io/2020-02-11-PCA/)
+- [Python regular expression](https://manqingzhou.github.io/2020-02-09-commands2/)
+- [Data manipulation in Python](https://manqingzhou.github.io/2020-02-02-data-science/)
+- [Markov Models](https://manqingzhou.github.io/2020-01-24-markov-model/)
+- [Data Science Interview Preparation](https://manqingzhou.github.io/2020-01-21-top-interviews/)
+- [SVM from Scratch](https://manqingzhou.github.io/2020-01-21-svm/)
+- [Decision Trees](https://manqingzhou.github.io/2020-01-16-decision-tree/)
+- [Bias Versus Variance](https://manqingzhou.github.io/2020-01-16-bias-variance/)
+- [Generative Models](https://manqingzhou.github.io/2020-01-08-two-generative-models/)
