@@ -3,14 +3,14 @@ title: Network Traffic Types
 subtitle: Unicast, Broadcast, Multicast, and Anycast.
 layout: post
 ---
-**Unicat**
+**Unicast**
 
 Most network traffic is unicast in nature, meaning that traffic travels from a single source deivce to another single destination device.
----
+~~~
 Note
 
 BGP establish a TCP session between peers. Therefore, unicast transmissions are used for BGP route advertisement.
----
+~~~
 
 **Broadcast**
 
