@@ -8,17 +8,15 @@ It is been a long time since I updated my study journey. I am officially a SOC a
 Today, I am gonna focus on a non-traceable attack which is responsible for at least 17 large service providers and multiple domains. 
 
 The team at Detectify has recently identified a serious attack vector resulting from a widespread DNS misconfiguration. This misconfiguration would allow an attack to take full control over subdomains pointing to providers such as Shoptify, Github, BitBucker, SquareSpace.
-<img src="/img/posts/attack_scene" alt="dns attack" align="center"/>
 WHY IS IT DANGEROUS?
 
 Three reasons:
 - Sign up a new account and claim the domain. DONE
 - The domain onwer would no know! Completely hidden
 - ISP is unlikely to fix it.
-<img src="/img/posts/domain" alt="dns attack" align="center"/>
-Here, example.com's subdomain would be x.example.com here.
+Here you can verify that.
 ~~~
-$ host subdomain.example.com
+$ host x.example.com
 x.example.com has address 192.30.252.153
 x.example.com has address 192.30.252.154
 $ whois 192.30.252.153 | grep "OrgName"
